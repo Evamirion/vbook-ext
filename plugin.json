@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "author": "Evamirion",
+    "author": "Vearn",
     "description": "Nghịch code"
   },
   "data": [
         {
         "name": "Shencou",
-        "author": "Evamirion",
+        "author": "Vearn",
         "path": "https://github.com/Evamirion/vbook-ext//master/Shencou/plugin.zip",
         "version": 1,
         "source": "https://www.shencou.com/",
