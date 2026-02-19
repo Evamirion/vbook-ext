@@ -12,7 +12,7 @@
         "source": "https://www.shencou.com/",
         "icon": "https://github.com/Evamirion/vbook-ext/master/Shencou/icon.png",
         "description": "Đọc truyện trên trang Shencou",
-        "type": "Japan Light Novel version Chinese",
+        "type": "chinese_novel",
         "locale": "zh_CN"
         },
     ]
