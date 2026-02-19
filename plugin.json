@@ -7,10 +7,10 @@
         {
         "name": "Shencou",
         "author": "Vearn",
-        "path": "https://github.com/Evamirion/vbook-ext/master/Shencou/Shencou.zip",
+        "path": "https://raw.githubusercontent.com/evamirion/vbook-ext/main/Shencou/Shencou.zip",
         "version": 1,
         "source": "https://www.shencou.com/",
-        "icon": "https://github.com/Evamirion/vbook-ext/master/Shencou/icon.png",
+        "icon": "https://raw.githubusercontent.com/evamirion/vbook-ext/main/Shencou/icon.png",
         "description": "Đọc truyện trên trang Shencou",
         "type": "chinese_novel",
         "locale": "zh_CN"
