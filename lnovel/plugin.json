@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Lnovel.org",
     "author": "Vearn",
-    "version": 1,
+    "version": 1.1,
     "source": "https://lnovel.org/books",
     "regexp": "(www.|m.)?lnovel.org/",
     "description": "Đọc truyện trên trang lnovel.org",
