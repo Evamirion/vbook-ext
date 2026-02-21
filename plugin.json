@@ -20,9 +20,9 @@
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/lnovel.zip",
         "version": 1,
-        "source": "https://www.lnovel.org/",
+        "source": "https://lnovel.org/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
-        "description": "Đọc truyện trên trang Lnovel.org",
+        "description": "Đọc truyện trên trang https://lnovel.org/",
         "type": "chinese_novel",
         "locale": "zh_CN"
         }
