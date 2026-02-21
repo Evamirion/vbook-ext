@@ -19,10 +19,21 @@
         "name": "Lnovel",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/lnovel.zip",
-        "version": 1,
+        "version": 1.1,
         "source": "https://lnovel.org/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
         "description": "Đọc truyện trên trang https://lnovel.org/",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+        },
+        {
+        "name": "Novel Fire",
+        "author": "Vearn",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/novelfire.zip",
+        "version": 1.1,
+        "source": "https://novelfire.net/",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/novelfire/icon.png",
+        "description": "Đọc truyện trên trang https://novelfire.net/",
         "type": "chinese_novel",
         "locale": "zh_CN"
         }
