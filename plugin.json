@@ -15,5 +15,16 @@
         "type": "chinese_novel",
         "locale": "zh_CN"
         }
+        {
+        "name": "Lnovel",
+        "author": "Vearn",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Shencou/lnovel.zip",
+        "version": 1,
+        "source": "https://www.lnovel.org/",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
+        "description": "Đọc truyện trên trang Lnovel.org",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
+        }
     ]
 }
