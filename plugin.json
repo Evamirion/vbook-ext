@@ -14,7 +14,7 @@
         "description": "Đọc truyện trên trang Shencou",
         "type": "chinese_novel",
         "locale": "zh_CN"
-        }
+        },
         {
         "name": "Lnovel",
         "author": "Vearn",
@@ -25,6 +25,6 @@
         "description": "Đọc truyện trên trang Lnovel.org",
         "type": "chinese_novel",
         "locale": "zh_CN"
-        }
+        },
     ]
 }
