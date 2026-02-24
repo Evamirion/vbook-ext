@@ -30,9 +30,9 @@
         "name": "Novel Fire",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/NovelFire.zip",
-        "version": 1,
+        "version": 2,
         "source": "https://novelfire.net/",
-        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/icon.png",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/Icon.png",
         "description": "Đọc truyện trên trang https://novelfire.net/",
         "type": "chinese_novel",
         "locale": "zh_CN"
