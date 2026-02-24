@@ -29,7 +29,7 @@
         {
         "name": "Novel Fire",
         "author": "Vearn",
-        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/novelfire.zip",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/novelfire/novelfire.zip",
         "version": 1,
         "source": "https://novelfire.net/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/novelfire/icon.png",
