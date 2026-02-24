@@ -18,7 +18,7 @@
         {
         "name": "Lnovel",
         "author": "Vearn",
-        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/lnovel.zip",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/plugin.zip",
         "version": 1.1,
         "source": "https://lnovel.org/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
@@ -29,7 +29,7 @@
         {
         "name": "Novel Fire",
         "author": "Vearn",
-        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/NovelFire.zip",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/plugin.zip",
         "version": 2,
         "source": "https://novelfire.net/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/Icon.png",
