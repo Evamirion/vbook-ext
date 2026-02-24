@@ -34,8 +34,8 @@
         "source": "https://novelfire.net/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/Icon.png",
         "description": "Đọc truyện trên trang https://novelfire.net/",
-        "type": "chinese_novel",
-        "locale": "zh_CN"
+        "type": "novel",
+        "locale": "en_US"
         }
     ]
 }
