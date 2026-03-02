@@ -38,10 +38,10 @@
         "locale": "en_US"
         },
         {
-        "name": "GG dichj Novel Full",
+        "name": "GG dịch Novel Full",
         "author": "Moleys - Ca mun can cap",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/plugin.zip",
-        "version": 2,
+        "version": 1,
         "source": "https://novelfire.net/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/icon.png",
         "description": "Đọc truyện trên trang https://novelfull.com/",
