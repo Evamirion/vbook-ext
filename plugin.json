@@ -19,7 +19,7 @@
         "name": "Lnovel",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/plugin.zip",
-        "version": 1.1,
+        "version": 2,
         "source": "https://lnovel.org/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
         "description": "Đọc truyện trên trang https://lnovel.org/",
@@ -34,6 +34,17 @@
         "source": "https://novelfire.net/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/Icon.png",
         "description": "Đọc truyện trên trang https://novelfire.net/",
+        "type": "novel",
+        "locale": "en_US"
+        },
+        {
+        "name": "GG dichj Novel Full",
+        "author": "Moleys - Ca mun can cap",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/plugin.zip",
+        "version": 2,
+        "source": "https://novelfire.net/",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/Icon.png",
+        "description": "Đọc truyện trên trang https://novelfull.com/",
         "type": "novel",
         "locale": "en_US"
         }
