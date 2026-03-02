@@ -43,7 +43,7 @@
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/plugin.zip",
         "version": 2,
         "source": "https://novelfire.net/",
-        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/Icon.png",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/icon.png",
         "description": "Đọc truyện trên trang https://novelfull.com/",
         "type": "novel",
         "locale": "en_US"
