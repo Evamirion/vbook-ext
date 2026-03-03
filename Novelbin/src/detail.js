@@ -10,7 +10,7 @@ function execute(url) {
             host: "https://novelbin.me",
             description: doc.select(".col-xs-12 .tab-content .tab-pane .desc-text").text(),
             author: doc.select(".col-info-desc .desc .info.info-meta li").get(0).select("a").text(),
-            ongoing: doc.select(".col-info-desc .desc .info.info-meta li").get(2).text() + "<br>" 
+            ongoing: doc.select(".col-info-desc .desc .info.info-meta li").get(2).text(),
             detail: doc.select(".col-info-desc .desc .info.info-meta li").get(1).text() + "<br>" 
                         + doc.select(".col-info-desc .desc .info.info-meta li").get(4).text()
 		
@@ -19,4 +19,5 @@ function execute(url) {
 
     }
     return null;
+
 }
