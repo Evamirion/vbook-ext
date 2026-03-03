@@ -2,9 +2,9 @@
   "metadata": {
     "name": "[GG Dịch] Novel Bin",
     "author": "Vearn",
-    "version": 1,
+    "version": 2,
     "source": "https://novelbin.me/",
-    "regexp": "(www.)?novelbin.me/[0-9a-z]",
+    "regexp": "(www.)?novelbin.me/novel-book/[0-9a-z]",
     "description": "Đọc truyện tại Novel Bin",
     "local": "en-US",
     "language": "javascript",

@@ -4,7 +4,7 @@ function execute() {
 
     var genre = [];
     if (doc) {
-        var listGenre = doc.select(".col-md-4 ul li a");
+        var listGenre = doc.select(".dropdown-menu.multi-column ul li a");
 
         listGenre.forEach(ge => genre.push({
                 title: ge.attr("title"),
