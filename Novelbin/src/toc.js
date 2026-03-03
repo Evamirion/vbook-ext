@@ -1,26 +1,23 @@
-function execute(url) {
+function execute(url,page) {
 
-    var docID = Http.get(url).html();
-    var idBook = docID.select("#truyen-id").attr("value");
-    //Console.log(idBook)
-    var doc = Http.get("https://novelfull.com/ajax-chapter-option?novelId=" + idBook).html();
-    var list_chapter =[];
-    var all_chapter = doc.select(".panel-body")
-    // for(var i in all_chapter){
-    //     var e = all_chapter[i];
-    //     //Console.log(e);
-    //     list_chapter.push({
-    //         name: e.text(),
-    //         url: e.attr("value"),
-    //         host: "https://novelbin.me"
-    //     })
-    // }
-    all_chapter.forEach(e=>list_chapter.push({
-            name: e.text(),
-            url: e.attr("value"),
-            host: "https://novelbin.me"
-        }))
-    return Response.success(list_chapter);
+    if(!page) page="1";
+
+    var doc = Http.get(url +"?"+ page).html();
+
+    var next =  doc.select("#list-chapter .pagination .next a").attr("href").match(/page=(\d+)/);
+    if (next) next = next[1];
+    if (doc) {
+        var list = [];
+        var el = doc.select("#list-chapter .row .col-xs-12 ul li a");
+        for (var i = 0; i < el.size(); i++) {
+            var e = el.get(i);
+            list.push({
+                name: e.attr("title"),
+                url: e.attr("href"),
+                host: "https://novelfull.com"
+            });
+        }
+        return Response.success(list,next);
+    }
+    return null;
 }
-//https://novelbin.me/novel-book/shadow-slave/chapter-1-nightmare-begins
-// toc json.
