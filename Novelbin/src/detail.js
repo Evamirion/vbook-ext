@@ -5,8 +5,8 @@ function execute(url) {
     if (doc) {
         //return Response.success(doc.select(".info-holder .info div").get(0));
         return Response.success({
-            name: doc.select(".col-info-desc .info-holder.books .desc .title").text(),
-            cover: doc.select(".col-info-desc .info-holder.books .book img").attr("src"),
+            name: doc.select(".col-info-desc .info-holder .books .desc .title").text(),
+            cover: doc.select(".col-info-desc .info-holder .books .book img").attr("src"),
             host: "https://novelbin.me",
             author: doc.select(".col-info-desc .desc .info.info-meta li").get(0).select("a").text(),
             description: doc.select(".col-xs-12 .tab-content .tab-pane .desc-text").text(),
@@ -18,4 +18,5 @@ function execute(url) {
 
     }
     return null;
+
 }
