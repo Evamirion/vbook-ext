@@ -7,18 +7,18 @@ function execute(url) {
     if (response.ok) {
         let doc = response.html('utf-8');
         let coverImg = doc.select("img.w-100.h-100").first().attr("src");
-//        let author =  doc.select("div.d1.dd.a").first().text();
-        let detail = doc.select("dl.row.mb-0");
+        let author =  doc.select("dd.col.text-body-tertiary").get(0).select("a").text();
+        let detail = doc.select("dd.col.text-body-tertiary").get(1);
 //        detail = Html.clean(detail, ["p"]);
-        let description = doc.select(".my-2");
-//        let ongoing = doc.select(".tab1 p.p5").text()
+        let description = doc.select(".my-2")+"<br>";
+//        let ongoing = doc.select("dd.col").get(2).select("a").text()
         return Response.success({
             name: doc.select("h1.h3").text(),
             cover: coverImg,
-//            author: author,
+            author: author,
             description: description,
             detail: detail,
-//           ongoing: ongoing.indexOf("已完结") === -1,
+//            ongoing: ongoing,
             host: "https://lnovel.org/"
         });
     }

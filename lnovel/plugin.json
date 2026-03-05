@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Lnovel.org",
     "author": "Vearn",
-    "version": 2,
-    "source": "https://lnovel.org/books",
-    "regexp": "(www.|m.)?lnovel.org/",
+    "version": 3,
+    "source": "https://lnovel.org",
+    "regexp": "(www.|m.)?lnovel.org/books-\\d+",
     "description": "Đọc truyện trên trang lnovel.org",
     "locale": "zh_CN",
     "language": "javascript",
@@ -14,6 +14,6 @@
     "home": "home.js",
     "detail": "detail.js",
     "toc": "toc.js",
-    "chap": "chap.js",
+    "chap": "chap.js"
   }
 }
