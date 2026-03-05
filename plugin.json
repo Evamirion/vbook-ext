@@ -19,7 +19,7 @@
         "name": "Lnovel",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/plugin.zip",
-        "version": 2,
+        "version": 3,
         "source": "https://lnovel.org/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
         "description": "Đọc truyện trên trang https://lnovel.org/",
