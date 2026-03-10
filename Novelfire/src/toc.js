@@ -1,19 +1,18 @@
 function execute(url) {
-    let response = fetch(url +"/chapters");
+    let response = fetch(url);
     if (response.ok) {
+		let chapurl = url + "/chapter-"
         let doc = response.html('utf-8');
-        let el = doc.select("ul.chapter-list li a")
+        let chapnum = Number(doc.select("div.header-stats span strong").get(0).text()) +1
+		
         const data = [];
-        for (let i = 0;i < el.size(); i++) {
-            var e = el.get(i);
-            let chapter_id = e.attr("href");
+        for (let i = 1;i < chapnum ; i++) {
             data.push({
-                name: e.select("a").text(),
-                url: "https://novelfire.net" + chapter_id,
+                name: "Chapter " + i,
+                url: chapurl + i,
                 host: "https://novelfire.net"
             })
         }
-        let next = doc.select("ul.pagination li a.page-link").attr("href").split("?page=")[1]
         return Response.success(data);
     }
     return null;
