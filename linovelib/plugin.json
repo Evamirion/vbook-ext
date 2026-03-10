@@ -4,7 +4,7 @@
     "author": "Vearn",
     "version": 1,
     "source": "https://tw.linovelib.com/",
-    "regexp": "(tw.|m.)?linovelib.com/(top/novel/\\d+.html)",
+    "regexp": "(tw.|m.)?linovelib.com/(top|novel)/\\d+.html)",
     "description": "Đọc truyện trên trang https://tw.linovelib.com/",
     "locale": "zh_CN",
     "language": "javascript",
