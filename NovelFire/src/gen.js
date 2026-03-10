@@ -11,7 +11,7 @@ function execute(url, page) {
             data.push({
                 name: e.select("h4.novel-title.text2row").first().text(),
                 link: e.select("a").first().attr("href"),
-                cover: e.select("figure.novel-cover img").first().attr("src"),
+                cover: BASE_URL + e.select("figure.novel-cover img").first().attr("data-src"),
                 description: e.select("div.novel-stats i").first().text(),
                 host: BASE_URL
             })

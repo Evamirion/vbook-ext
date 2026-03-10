@@ -5,3 +5,10 @@ try {
     }
 } catch (error) {
 }
+let tran_eng = 0
+try {
+    if (CONFIG_TRAN) {
+        tran_eng = CONFIG_TRAN;
+    }
+} catch (error) {
+}
