@@ -39,7 +39,7 @@
         },
         {
         "name": "GG dịch Novel Full",
-        "author": "Moleys - Ca mun can cap (vearn)",
+        "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/plugin.zip",
         "version": 1,
         "source": "https://novelfull.com/",
@@ -50,7 +50,7 @@
         },
         {
         "name": "GG dịch Novel Bin",
-        "author": "vearn",
+        "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelbin/Novelbin.zip",
         "version": 2,
         "source": "https://novelbin.me/",
@@ -61,7 +61,7 @@
         },
         {
         "name": "Tiệm truyện chữ",
-        "author": "vearn",
+        "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Tiemtruyenchu/plugin.zip",
         "version": 1,
         "source": "https://www.tiemtruyenchu.com/",
