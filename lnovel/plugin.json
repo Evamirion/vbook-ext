@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "name": "Lnovel.org",
+    "name": "Light Novel",
     "author": "Vearn",
-    "version": 3,
+    "version": 4,
     "source": "https://lnovel.org",
     "regexp": "(www.|m.)?lnovel.org/books-\\d+",
     "description": "Đọc truyện trên trang lnovel.org",

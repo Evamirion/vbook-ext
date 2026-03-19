@@ -14,7 +14,7 @@ function execute(url, page) {
                 host: "https://lnovel.org/"
             })
         });
-        let next = doc.select("ul.pagination.justify-content-center.mb-0 li a").attr("href").split("page=")[1]
+        let next = doc.select("ul.pagination.justify-content-center.mb-0").select("li.page-item.active +li").text()
         return Response.success(data, next)
     }
     return null;
