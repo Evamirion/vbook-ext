@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Tiệm truyện chữ",
     "author": "Vearn",
-    "version": 3,
+    "version": 4,
     "source": "https://tiemtruyenchu.com/",
     "regexp": "(www.|m.)?tiemtruyenchu.com/truyen/\\d+",
     "description": "Đọc truyện trên trang https://tiemtruyenchu.com/",
