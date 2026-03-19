@@ -16,7 +16,7 @@
         "locale": "zh_CN"
         },
         {
-        "name": "Light Novel",
+        "name": "Lnovel",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/plugin.zip",
         "version": 4,
