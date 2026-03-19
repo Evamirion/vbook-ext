@@ -69,6 +69,17 @@
         "description": "Đọc truyện trên trang https://www.tiemtruyenchu.com/",
         "type": "novel",
         "locale": "vn_VI"
+        },
+        {
+        "name": "Đồng nhân xã",
+        "author": "Vearn",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/TongRenShe/plugin.zip",
+        "version": 1,
+        "source": "https://tongrenshe.cc",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/TongRenShe/icon.png",
+        "description": "Đọc truyện trên trang https://tongrenshe.cc",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
         }
     ]
 }
