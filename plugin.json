@@ -16,10 +16,10 @@
         "locale": "zh_CN"
         },
         {
-        "name": "Lnovel",
+        "name": "Light Novel",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/plugin.zip",
-        "version": 3,
+        "version": 4,
         "source": "https://lnovel.org/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/lnovel/icon.png",
         "description": "Đọc truyện trên trang https://lnovel.org/",
