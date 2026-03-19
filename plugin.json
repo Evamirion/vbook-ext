@@ -49,17 +49,6 @@
         "locale": "en_US"
         },
         {
-        "name": "GG dịch Novel Bin",
-        "author": "Vearn",
-        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelbin/Novelbin.zip",
-        "version": 2,
-        "source": "https://novelbin.me/",
-        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelbin/icon.png",
-        "description": "Đọc truyện trên trang https://novelbin.me/",
-        "type": "novel",
-        "locale": "en_US"
-        },
-        {
         "name": "Tiệm truyện chữ",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Tiemtruyenchu/plugin.zip",
