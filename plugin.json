@@ -69,6 +69,17 @@
         "description": "Đọc truyện trên trang https://tongrenshe.cc",
         "type": "chinese_novel",
         "locale": "zh_CN"
+        },
+        {
+        "name": "ilwxs",
+        "author": "Vearn",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/ilwxs/plugin.zip",
+        "version": 1,
+        "source": "https://www.ilwxs.com",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/ilwxs/icon.png",
+        "description": "Đọc truyện trên trang https://www.ilwxs.com",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
         }
     ]
 }
