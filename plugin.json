@@ -32,7 +32,7 @@
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/plugin.zip",
         "version": 4,
         "source": "https://novelfire.net/",
-        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/icon.PNG",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/icon.png",
         "description": "Đọc truyện trên trang https://novelfire.net/",
         "type": "novel",
         "locale": "en_US"
