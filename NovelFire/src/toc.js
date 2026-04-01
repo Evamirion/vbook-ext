@@ -1,7 +1,7 @@
 function execute(url) {
     let response = fetch(url);
     if (response.ok) {
-		let chapurl = url + "/chapter-"
+		let chapurl = url + "/chapter"
         let doc = response.html('utf-8');
         let chapnum = Number(doc.select("div.header-stats span strong").get(0).text()) +1
 		
