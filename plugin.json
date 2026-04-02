@@ -80,6 +80,17 @@
         "description": "Đọc truyện trên trang https://www.ilwxs.com",
         "type": "chinese_novel",
         "locale": "zh_CN"
+        },
+        {
+        "name": "Đồng nhân tiểu thuyết",
+        "author": "Vearn",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/qbtr/plugin.zip",
+        "version": 1,
+        "source": "https://www.qbtr.cc",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/qbtr/icon.png",
+        "description": "Đọc truyện trên trang https://www.qbtr.c",
+        "type": "chinese_novel",
+        "locale": "zh_CN"
         }
     ]
 }
