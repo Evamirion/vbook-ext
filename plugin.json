@@ -52,7 +52,7 @@
         "name": "Tiệm truyện chữ",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Tiemtruyenchu/plugin.zip",
-        "version": 4,
+        "version": 5,
         "source": "https://www.tiemtruyenchu.com/",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Tiemtruyenchu/icon.png",
         "description": "Đọc truyện trên trang https://www.tiemtruyenchu.com/",
@@ -88,9 +88,20 @@
         "version": 1,
         "source": "https://www.qbtr.cc",
         "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/qbtr/icon.png",
-        "description": "Đọc truyện trên trang https://www.qbtr.c",
+        "description": "Đọc truyện trên trang https://www.qbtr.cc",
         "type": "chinese_novel",
         "locale": "zh_CN"
+        },
+        {
+        "name": "Truyện hoàn",
+        "author": "Vearn",
+        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Truyenhoan/plugin.zip",
+        "version": 1,
+        "source": "https://truyenhoan.com",
+        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Truyenhoan/icon.png",
+        "description": "Đọc truyện trên trang https://truyenhoan.com",
+        "type": "novel",
+        "locale": "vn_VI"
         }
     ]
 }
