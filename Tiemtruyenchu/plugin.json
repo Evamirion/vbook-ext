@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Tiệm truyện chữ",
     "author": "Vearn",
-    "version": 4,
+    "version": 5,
     "source": "https://tiemtruyenchu.com/",
-    "regexp": "(www.|m.)?tiemtruyenchu.com/truyen/\\d+",
+    "regexp": "^https:\/\/tiemtruyenchu\.com\/truyen\/[a-zA-Z0-9-]+\/?$",
     "description": "Đọc truyện trên trang https://tiemtruyenchu.com/",
     "locale": "vn_VI",
     "language": "javascript",
