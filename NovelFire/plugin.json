@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Novel Fire",
     "author": "Vearn",
-    "version": 6,
+    "version": 7,
     "source": "https://novelfire.net/",
-    "regexp": "(www.)?(m.)?novelfire.net/book/.*",
+    "regexp": "(?:www\.)?novelfire\.net/book/([a-z0-9-]+)",
     "description": "Đọc truyện trên trang https://novelfire.net/",
     "locale": "en_US",
     "language": "javascript",
