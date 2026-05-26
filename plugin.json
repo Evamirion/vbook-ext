@@ -27,17 +27,6 @@
         "locale": "zh_CN"
         },
         {
-        "name": "Novel Fire",
-        "author": "Vearn",
-        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/plugin.zip",
-        "version": 7,
-        "source": "https://novelfire.net/",
-        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/NovelFire/Icon.png",
-        "description": "Đọc truyện trên trang https://novelfire.net/",
-        "type": "novel",
-        "locale": "en_US"
-        },
-        {
         "name": "GG dịch Novel Full",
         "author": "Vearn",
         "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Novelfull/plugin.zip",
@@ -47,17 +36,6 @@
         "description": "Đọc truyện trên trang https://novelfull.com/",
         "type": "novel",
         "locale": "en_US"
-        },
-        {
-        "name": "Tiệm truyện chữ",
-        "author": "Vearn",
-        "path": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Tiemtruyenchu/plugin.zip",
-        "version": 5,
-        "source": "https://www.tiemtruyenchu.com/",
-        "icon": "https://raw.githubusercontent.com/Evamirion/vbook-ext/refs/heads/main/Tiemtruyenchu/icon.png",
-        "description": "Đọc truyện trên trang https://www.tiemtruyenchu.com/",
-        "type": "novel",
-        "locale": "vn_VI"
         },
         {
         "name": "Đồng nhân xã",
