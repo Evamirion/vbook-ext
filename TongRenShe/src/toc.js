@@ -9,7 +9,7 @@ function execute(url) {
             data.push({
                 name: e.select("a").first().text(),
                 url: e.select("a").first().attr("href"),
-                host: "https://tongrenshe.cc/"
+                host: "https://m.tongrenshe.cc/"
             })
         });
         //let next = doc.select("div.chapter-page").attr("id").split("page-")[1]

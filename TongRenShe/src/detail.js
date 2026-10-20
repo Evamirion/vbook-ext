@@ -15,7 +15,7 @@ function execute(url) {
             description: description,
             //detail: detail,
             //ongoing: ongoing,
-            host: "https://tongrenshe.cc"
+            host: "https://m.tongrenshe.cc"
         });
     }
     return null;

@@ -8,10 +8,10 @@ function execute(url, page) {
         table.forEach(e => {
             data.push({
                 name: e.select("a div.infos h3").first().text(),
-                link: "https://tongrenshe.cc" + e.select("a").first().attr("href"),
-                cover: "https://tongrenshe.cc" + e.select("a div.pic img").first().attr("src"),
+                link: "https://m.tongrenshe.cc" + e.select("a").first().attr("href"),
+                cover: "https://m.tongrenshe.cc" + e.select("a div.pic img").first().attr("src"),
                 description: e.select("div.infos p").text(),
-                host: "https://tongrenshe.cc"
+                host: "https://m.tongrenshe.cc"
             })
         });
         var next = page + 1 
