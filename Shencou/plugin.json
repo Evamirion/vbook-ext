@@ -2,7 +2,7 @@
   "metadata": {
     "name": "shencou 📖",
     "author": "Vearn",
-    "version": 1.1,
+    "version": 2,
     "source": "https://m.shencou.com",
     "regexp": "(www.|m.)?shencou.com/(books/read_\\d+.html|info.php(.)aid=\\d+)",
     "description": "Đọc truyện trên trang https://m.shencou.com, cập nhật từ ext của Moleys",
