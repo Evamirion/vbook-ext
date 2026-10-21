@@ -1,6 +1,6 @@
-function execute(url, page) {
-    if(!page) page = '0';
-    let response = fetch(url + "-" + page + ".html");
+load('config.js');
+function execute(url) {
+    let response = fetch(url);
     if (response.ok) {
         let doc = response.html('gb2312');
         const data = [];
@@ -8,14 +8,13 @@ function execute(url, page) {
         table.forEach(e => {
             data.push({
                 name: e.select("a div.infos h3").first().text(),
-                link: "https://m.tongrenshe.cc" + e.select("a").first().attr("href"),
-                cover: "https://m.tongrenshe.cc" + e.select("a div.pic img").first().attr("src"),
+                link: base_url + e.select("a").first().attr("href"),
+                cover: base_url + e.select("a div.pic img").first().attr("src"),
                 description: e.select("div.infos p").text(),
-                host: "https://m.tongrenshe.cc"
+                host: base_url
             })
         });
-        var next = page + 1 
-        return Response.success(data, next)
+        return Response.success(data)
     }
     return null;
 }

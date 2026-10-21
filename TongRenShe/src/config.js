@@ -1,7 +1,7 @@
-let base-url = "https://m.tongrenshe.cc/";
+let base_url = "https://m.tongrenshe.cc";
 try {
     if (config_url) {
-        base-url = config_url;
+        base_url = config_url;
     }
 } catch (error) {
 }

@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Đồng nhân xã",
     "author": "Vearn",
-    "version": 5,
+    "version": 6,
     "source": "https://m.tongrenshe.cc/",
     "regexp": "(www.|m.)?tongrenshe.cc/tongren/\\d+.html",
     "description": "Đọc truyện trên trang https://m.tongrenshe.cc/",
